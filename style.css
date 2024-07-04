@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:rgb(133, 46, 61);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box{
+    height:fit-content;
+    width:fit-content;
+    background-color: white;
+    padding: 50px;
+    border-radius: 70px 5px 70px 5px;
+    box-shadow: 5px 5px 10px yellow, -5px -5px 10px yellow;
+    
+}
+
+h2{
+    color: royalblue;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius:10px 20px 10px 20px;
+    box-shadow: 5px 5px 10px royalblue, -5px -5px 10px royalblue;
+    margin: 15px;
+    cursor: pointer;
+
+}
